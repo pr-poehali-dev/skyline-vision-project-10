@@ -18,20 +18,20 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/ccc64f0e-d13d-4776-9b92-881d3d230cc1/files/bcc77da7-ce82-44e8-8bcd-541c14e1442a.jpg"
+            alt="Геотермальные источники Камчатки"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/30" />
         </motion.div>
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+        Природа работает на нас
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+        Километры под землёй — кипящая магма. На поверхности — тепло, свет и жизнь целого региона. Мутновская ГЕОЭС превращает силу вулкана в электричество для домов Камчатки.
       </p>
     </div>
   );
